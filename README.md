@@ -26,15 +26,12 @@ D : Discriminator, 특정 데이터가 가짜인지 진짜인지 판별
 **(a) cGANs, input concat**
 paper : https://arxiv.org/abs/1411.1784
 
-![alt text](image-2.png)
-
 - Generator를 학습할 때 latent 벡터 z에 condition 변수 1-0 encoding된 벡터 y를 붙여줌
 - Discriminator에도 동일하게  condition 변수 1-0 encoding된 벡터 y를 붙여줌
 
 
+**(b) cGANSs, hidden concat**
 
-(b) cGANSs, hidden concat
+**(c) AC_GANs**
 
-(c) AC_GANs
-
-(d) cGANS with projection discriminator
+**(d) cGANS with projection discriminator**
